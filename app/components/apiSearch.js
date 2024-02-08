@@ -75,7 +75,6 @@ const apiSearch = () => {
             <ul>
                   {weatherData ? (
                     <div className="container">
-                      {/* Render your weather data here */}
                       <p id="location"> {weatherData.location.name}</p>
                       <br />
                       <p id="temperature"> {weatherData.data.values.temperature} °C</p>
